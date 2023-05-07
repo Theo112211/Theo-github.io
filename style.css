@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+nav{
+    width: 100%;
+    background-color: rgb(134, 4, 255);
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 100px;
+    color: aliceblue;
+}
+
+
+.navigation ul{
+display: flex;
+}
+
+
+ul li{
+    color: rgb(0, 38, 255);
+    border-radius: 15px;
+    list-style-type: none;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 30px;
+    border: 2px solid yellow;
+
+}
+
+li a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+h1 , p{
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.logo h1{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+
+#Home h1 {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center; 
+      font-size: 100px; 
+     line-height: 1.0px;  
+      padding: 100px; 
+    height: 100px;
+}
+p{
+    
+    
+    text-align: center; 
+      font-size: 100px; 
+    
+}
+
+#Home{
+    background-color: rgb(0, 44, 83);
+    height: 650px;
+    width: 100%;
+}
+
+#About h1{
+
+    width: 100%;
+    margin-top: 30px;
+    text-align: center; 
+      font-size: 100px; 
+     line-height: 1.0px;  
+      padding: 100px; 
+    height: 100px;
+}
+
+#About{
+    background-color: rgb(1, 34, 63);
+    height: 100%;
+    width: 100%;
+
+}
+
+h1 ,p{
+    padding-top: 20px;
+    color: black;
+}
+
+#Contact h1{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center; 
+      font-size: 100px; 
+     line-height: 1.0px;  
+      padding: 100px; 
+    height: 100px;
+}
+
+#Contact{
+    background-color: rgb(29, 29, 29);
+    height: 250px;
+    width: 100%;
+
+}
+
+h2 ,p1{
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    align:center;
+}
+
+a{
+    color: aliceblue;
+    margin-left: 10px;
+    padding:15px ;
+}
+
+h1{
+    color: aliceblue;
+    font-weight: 200px;
+}
+
+p{
+    color: aliceblue;
+}
+
+.logo img{
+    size: 80px;
+    border-radius: 20px;
+}
+
+p3{
+    color: aliceblue;
+    font-weight: 100px;
+    padding: 200px;
+    font-size: xx-large;
+    animation-fill-mode: backwards;
+}
